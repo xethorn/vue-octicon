@@ -1,0 +1,20 @@
+{
+  "name": "vue-octicon",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Justineo/vue-octicon",
+  "authors": [
+    "Justineo <justice360@gmail.com>"
+  ],
+  "description": "Octicon component for Vue.js, using inline SVG.",
+  "main": "dist/vue-octicon.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "Octicon",
+    "Vue.js"
+  ],
+  "license": "MIT"
+}
