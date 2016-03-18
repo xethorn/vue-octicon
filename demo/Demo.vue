@@ -1,5 +1,5 @@
 <template>
-  <figure id="logo"><octicon name="mark-github" scale="8"></octicon></figure>
+  <a href="//github.com/Justineo/vue-octicon" title="View on GitHub"><figure id="logo"><octicon name="mark-github" scale="8"></octicon></figure></a>
   <h1>Vue-Octicon</h1>
   <p class="desc">Octicon component for Vue.js, using inline SVG.</p>
 
@@ -18,11 +18,15 @@
   <h2>Flip</h2>
   <p><octicon name="zap" flip="vertical"></octicon></p>
   <figure><pre><code>&lt;octicon <span class="attr">name</span>=<span class="val">"zap"</span> <span class="attr">flip</span>=<span class="val">"vertical"</span>&gt;&lt;/octicon&gt;</code></pre></figure>
+
+  <h2>Label<br><small>(<code>aria-label</code>)</small></h2>
+  <p><octicon name="repo-forked" label="Forked Repository"></octicon></p>
+  <figure><pre><code>&lt;octicon <span class="attr">name</span>=<span class="val">"repo-forked"</span> <span class="attr">label</span>=<span class="val">"Forked Repository"</span>&gt;&lt;/octicon&gt;</code></pre></figure>
 </template>
 
 <style>
 body {
-  margin-top: 5em;
+  margin-top: 4em;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   color: #666;
   text-align: center;
@@ -32,10 +36,19 @@ body {
 <style scoped>
 #logo {
   display: inline-block;
+  margin: 20px;
   padding: 10px;
   border-radius: 50%;
   background-color: #35495e;
   color: #41b883;
+  transition: all .3s;
+}
+
+#logo:hover {
+  background-color: #41b883;
+  color: #35495e;
+  margin: 0;
+  padding: 30px;
 }
 
 h1 {
@@ -51,6 +64,11 @@ h1, h2 {
 h2 {
   margin-top: 2em;
   font-size: 1.2em;
+}
+
+h2 small {
+  font-size: 0.6em;
+  color: #7f8c8d;
 }
 
 .desc {
@@ -77,6 +95,9 @@ pre {
 
 pre, code {
   font-family: "Roboto Mono", Monaco, courier, monospace;
+}
+
+pre code {
   font-size: 0.8em;
 }
 
