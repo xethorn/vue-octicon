@@ -22,6 +22,10 @@
   <h2>Label<br><small>(<code>aria-label</code>)</small></h2>
   <p><octicon name="repo-forked" label="Forked Repository"></octicon></p>
   <figure><pre><code>&lt;octicon <span class="attr">name</span>=<span class="val">"repo-forked"</span> <span class="attr">label</span>=<span class="val">"Forked Repository"</span>&gt;&lt;/octicon&gt;</code></pre></figure>
+
+  <footer>
+    <a href="//github.com/Justineo">@Justineo</a>|<a href="//github.com/Justineo/vue-octicon/blob/master/LICENSE">MIT License</a>|<a href="//github.com/Justineo/vue-octicon">View on GitHub</a>
+  </footer>
 </template>
 
 <style>
@@ -107,5 +111,25 @@ pre code {
 
 .val {
   color: #42b983;
+}
+
+footer {
+  margin: 5em 0 3em;
+  font-size: 0.5em;
+  vertical-align: middle;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 3px 0 6px;
+  color: #7f8c8d;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+footer a:hover {
+  padding-bottom: 3px;
+  border-bottom: 3px solid #42b983;
 }
 </style>
