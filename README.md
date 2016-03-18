@@ -24,7 +24,9 @@ $ npm install vue-octicon
 
 ### bower
 
-Coming soon.
+```bash
+$ bower install vue-octicon
+```
 
 ## Usage
 
