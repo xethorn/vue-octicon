@@ -37,6 +37,7 @@ $ bower install vue-octicon
 <!-- with options -->
 <octicon name="sync" scale="2" spin></octicon>
 <octicon name="comment" flip="horizontal"></octicon>
+<octicon name="repo-forked" label="Forked Repository"></octicon>
 ```
 
 ### CommonJS
