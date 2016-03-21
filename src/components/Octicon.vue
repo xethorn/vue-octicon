@@ -48,7 +48,8 @@ export default {
       type: Number,
       default: 1,
       coerce: function (val) {
-        return Number(val)
+        val = Number(val)
+        return isNaN(val) ? undefined : val;
       },
       validator: function (val) {
         return Number(val) > 0

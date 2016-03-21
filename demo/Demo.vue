@@ -80,7 +80,7 @@ h2 small {
   color: #7f8c8d;
 }
 
-figure svg {
+figure .octicon {
   display: block;
 }
 
