@@ -77,10 +77,10 @@ export default {
       return `0 0 ${this.icon.width} ${this.icon.height}`
     },
     width: function () {
-      return Number(this.icon.width) * Number(this.scale)
+      return this.icon.width * this.scale
     },
     height: function () {
-      return Number(this.icon.height) * Number(this.scale)
+      return this.icon.height * this.scale
     }
   }
 }
