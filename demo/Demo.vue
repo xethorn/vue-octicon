@@ -8,7 +8,7 @@
   <figure><pre><code>&lt;octicon <span class="attr">name</span>=<span class="val">"git-pull-request"</span>&gt;&lt;/octicon&gt;</code></pre></figure>
 
   <h2>Scale</h2>
-  <p><octicon name="repo" scale="2"></octicon></p>
+  <p><octicon name="repo" scale="3"></octicon></p>
   <figure><pre><code>&lt;octicon <span class="attr">name</span>=<span class="val">"repo"</span> <span class="attr">scale</span>=<span class="val">"3"</span>&gt;&lt;/octicon&gt;</code></pre></figure>
 
   <h2>Spin</h2>
@@ -35,9 +35,7 @@ body {
   color: #666;
   text-align: center;
 }
-</style>
 
-<style scoped>
 #logo {
   display: inline-block;
   margin: 20px;
