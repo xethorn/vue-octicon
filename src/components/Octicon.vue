@@ -1,5 +1,5 @@
 <template>
-  <svg version="1.1" class="octicon" :class="clazz" :role="label ? 'img' : 'presentation'" :aria-label="label" :width="width" :height="height" :view-box.camel="box">
+  <svg version="1.1" class="octicon" :class="clazz" :role="label ? 'img' : 'presentation'" :aria-label="label" :width="width" :height="height" :view-box.camel="box" :style="style">
     <path :d="icon.d" />
   </svg>
 </template>
@@ -82,6 +82,14 @@ export default {
     },
     height: function () {
       return this.icon.height * this.scale
+    },
+    style: function () {
+      if (this.scale === 1) {
+        return false
+      }
+      return {
+        fontSize: this.scale + 'em'
+      }
     }
   }
 }
