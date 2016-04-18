@@ -19,7 +19,8 @@
   <p><octicon name="zap" flip="vertical"></octicon></p>
   <figure><pre><code>&lt;octicon <span class="attr">name</span>=<span class="val">"zap"</span> <span class="attr">flip</span>=<span class="val">"vertical"</span>&gt;&lt;/octicon&gt;</code></pre></figure>
 
-  <h2>Label<br><small>(<code>aria-label</code>)</small></h2>
+  <h2>Label</h2>
+  <p><small>Accessible for screen readers, etc.</small></p>
   <p><octicon name="repo-forked" label="Forked Repository"></octicon></p>
   <figure><pre><code>&lt;octicon <span class="attr">name</span>=<span class="val">"repo-forked"</span> <span class="attr">label</span>=<span class="val">"Forked Repository"</span>&gt;&lt;/octicon&gt;</code></pre></figure>
 
@@ -68,11 +69,6 @@ h2 {
   font-size: 1.2em;
 }
 
-h2 small {
-  font-size: 0.6em;
-  color: #7f8c8d;
-}
-
 .desc {
   margin-bottom: 4em;
   color: #7f8c8d;
@@ -80,6 +76,11 @@ h2 small {
 
 figure .octicon {
   display: block;
+}
+
+p small {
+  font-size: 0.6em;
+  color: #7f8c8d;
 }
 
 p .octicon {

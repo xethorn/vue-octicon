@@ -80,3 +80,7 @@ $ npm run dev
 ```
 
 Open `http://localhost:8080/demo` to see the demo.
+
+## Related projects
+
+* [Vue-Awesome](https://github.com/Justineo/vue-awesome) by the same author of Vue-Octicon.

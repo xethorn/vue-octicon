@@ -1,5 +1,5 @@
 <template>
-  <svg class="octicon" :class.once="clazz" :aria-label="label" :width="width" :height="height" :view-box.camel="box">
+  <svg version="1.1" class="octicon" :class="clazz" :role="label ? 'img' : 'presentation'" :aria-label="label" :width="width" :height="height" :view-box.camel="box">
     <path :d="icon.d" />
   </svg>
 </template>
