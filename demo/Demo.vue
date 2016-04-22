@@ -24,6 +24,11 @@
   <p><octicon name="repo-forked" label="Forked Repository"></octicon></p>
   <figure><pre><code>&lt;octicon <span class="attr">name</span>=<span class="val">"repo-forked"</span> <span class="attr">label</span>=<span class="val">"Forked Repository"</span>&gt;&lt;/octicon&gt;</code></pre></figure>
 
+  <h2>Custom icons</h2>
+  <p><small>You can register your own icons.</small></p>
+  <p><octicon name="taobao"></octicon></p>
+  <figure><pre><code>&lt;octicon <span class="attr">name</span>=<span class="val">"taobao"</span>&gt;&lt;/octicon&gt;</code></pre></figure>
+
   <footer>
     <a href="//github.com/Justineo">@Justineo</a>|<a href="//github.com/Justineo/vue-octicon/blob/master/LICENSE">MIT License</a>|<a href="//github.com/Justineo/vue-octicon">View on GitHub</a>
   </footer>

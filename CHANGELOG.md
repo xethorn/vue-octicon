@@ -1,3 +1,6 @@
+0.3.0
+* Supported registering custom icons.
+
 0.2.1
 * `scale` now works well with CSS `em` sizes.
 

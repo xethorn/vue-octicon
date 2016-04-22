@@ -35,6 +35,9 @@
 <script>
 import OCTICONS from '../assets/octicons'
 
+// can register custom icons
+let icons = OCTICONS
+
 export default {
   props: {
     name: {
@@ -72,7 +75,7 @@ export default {
       }
     },
     icon: function () {
-      return OCTICONS[this.name]
+      return icons[this.name]
     },
     box: function () {
       return `0 0 ${this.icon.width} ${this.icon.height}`
@@ -90,6 +93,11 @@ export default {
       return {
         fontSize: this.scale + 'em'
       }
+    }
+  },
+  register: function (custom) {
+    for (let name in custom) {
+      icons[name] = custom[name]
     }
   }
 }
